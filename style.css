@@ -3,6 +3,18 @@ body {
   background-color: #fff;
 }
 
+/* Chrome, Safari, Edge, Opera */
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/*  Firefox */
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
 .container {
   display: flex;
   flex-direction: column;
@@ -29,6 +41,7 @@ body {
   border-radius: 6px;
   border: 1px solid #57b4ba;
   margin-left: 10px;
+  outline: none;
 }
 
 .panel #guess,
@@ -54,11 +67,11 @@ body {
   border: none;
   color: #fdfbee;
   background-color: #015551;
+  transition: transform 0.3s, background-color 0.3s;
 }
 
 #try:active {
-  width: 95px;
-  height: 45px;
+  transform: scale(1.1);
   background-color: #036d68;
 }
 
