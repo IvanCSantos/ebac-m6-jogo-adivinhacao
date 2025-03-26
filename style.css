@@ -1,0 +1,56 @@
+body {
+  color: #015551;
+  background-color: #fff;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 40px 20px;
+  width: 400px;
+  background-color: #fdfbee;
+}
+
+.panel {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 40px;
+  width: 70%;
+  outline: #015551;
+}
+
+.panel #guess {
+  width: 10ch;
+  padding: 2px 5px;
+  border-radius: 6px;
+  border: 1px solid #57b4ba;
+  margin-left: 10px;
+}
+
+.panel #guess,
+.panel label {
+  color: #015551;
+  font-size: 1.2rem;
+  height: 40px;
+}
+
+.input {
+  margin-bottom: 20px;
+}
+
+#messages,
+#counter {
+  height: 20px;
+}
+
+#chutar {
+  width: 90px;
+  height: 40px;
+  border-radius: 6px;
+  border: none;
+  color: #fdfbee;
+  background-color: #015551;
+}
