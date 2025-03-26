@@ -67,8 +67,4 @@ function userTry() {
   }
 }
 
-// const triesLabel = document.getElementById("counter");
-
-console.log(randomNumber);
-
 getElement("try").addEventListener("click", userTry);
