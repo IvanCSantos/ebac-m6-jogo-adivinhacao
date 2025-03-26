@@ -1,7 +1,7 @@
 // Define os números mínimos e máximos do jogo
 const MIN = 1;
 const MAX = 100;
-const MAXTRIES = 3;
+const MAXTRIES = 10;
 
 let tried = 0;
 
